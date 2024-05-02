@@ -1,0 +1,23 @@
+﻿@page "/product"
+
+<PageTitle>Product Information</PageTitle>
+@* <h3 class="text text-muted text-center">Our Products</h3>
+
+<select class="form form-control w-50 mx-auto my-2" @bind="ProductId" @bind:event="oninput" @onchange="LoadProduct">
+    @foreach(var product in Products)
+    {
+        <option value="@product.Id">@product.Name</option>
+    }
+</select>
+
+@if (Product != null)
+{
+    <div class="card p-2 mx-auto mt-5 text-center" style="width: 20rem;">
+    <img src="@Product.ImgSrc" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h4 class="card-title">@Product.Name</h4>
+        <p class="card-text ">Category: <strong>@Product.CategoryId</strong></p>
+        <p class="card-text ">Price: <strong>$@Product.Price</strong></p>
+    </div>
+    </div>
+} *@

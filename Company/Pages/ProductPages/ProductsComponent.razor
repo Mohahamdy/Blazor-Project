@@ -1,0 +1,55 @@
+﻿@page "/Products"
+<PageTitle>All Products</PageTitle>
+@if(products == null || Categories == null)
+{
+    <h3 class="text text-muted text-center">Just Waiting OR There are no products !!</h3>
+}
+else
+{
+    <h3 class="text text-muted text-center m-2">All Products</h3>
+    <div class="d-flex justify-content-end">
+        <a href="/products/Add" style="border:solid 1px lightGray;padding: 8px;margin: 7px 0;text-decoration:none;"><i class="bi bi-plus-square text-success"></i> <span style="font-size:15px">Add Product</span></a>
+    </div>
+    <table class="table table-bordered text-center">
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Actions</th>
+        </tr>
+        @foreach(var p in products)
+        {
+            <tr>
+                <td>@p.Name</td>
+                <td>@Categories.FirstOrDefault(c=> c.Id == p.CategoryId).Name</td>
+                <td>$@p.Price</td>
+                <td>@p.Quantity</td>
+                <td>
+                    <a href="/Products/Details/@p.Id"><i class="bi bi-eye mx-1 text-warning"></i></a>
+                    <a href="/Products/Edit/@p.Id"><i class="bi bi-pencil-square mx-1"></i></a>
+                </td>
+            </tr>
+        }
+    </table>
+
+}
+
+@code {
+    [Inject]
+    public IService<Product> Productservice { get; set; } 
+
+    [Inject]
+    public IService<Category> Categoryservice { get; set; }
+
+    public List<Product> products { get; set; }
+    public List<Category> Categories { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Productservice.GetAll();
+
+        Categories = await Categoryservice.GetAll();
+    }
+
+}

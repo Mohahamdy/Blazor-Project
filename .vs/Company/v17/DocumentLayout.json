@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Technical Materials\\Blazor\\Task\\Company\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94A54171-AD53-4525-AB1D-D0C0C89A1AEC}|Company\\Company.csproj|d:\\technical materials\\blazor\\task\\company\\company\\pages\\productpages\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94A54171-AD53-4525-AB1D-D0C0C89A1AEC}|Company\\Company.csproj|solutionrelative:company\\pages\\productpages\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A54171-AD53-4525-AB1D-D0C0C89A1AEC}|Company\\Company.csproj|d:\\technical materials\\blazor\\task\\company\\company\\pages\\productpages\\addproductcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94A54171-AD53-4525-AB1D-D0C0C89A1AEC}|Company\\Company.csproj|solutionrelative:company\\pages\\productpages\\addproductcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A54171-AD53-4525-AB1D-D0C0C89A1AEC}|Company\\Company.csproj|d:\\technical materials\\blazor\\task\\company\\company\\pages\\productpages\\productdetailscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94A54171-AD53-4525-AB1D-D0C0C89A1AEC}|Company\\Company.csproj|solutionrelative:company\\pages\\productpages\\productdetailscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A54171-AD53-4525-AB1D-D0C0C89A1AEC}|Company\\Company.csproj|d:\\technical materials\\blazor\\task\\company\\company\\pages\\productpages\\editproductcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94A54171-AD53-4525-AB1D-D0C0C89A1AEC}|Company\\Company.csproj|solutionrelative:company\\pages\\productpages\\editproductcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsComponent.razor",
+              "DocumentMoniker": "D:\\Technical Materials\\Blazor\\Task\\Company\\Company\\Pages\\ProductPages\\ProductsComponent.razor",
+              "RelativeDocumentMoniker": "Company\\Pages\\ProductPages\\ProductsComponent.razor",
+              "ToolTip": "D:\\Technical Materials\\Blazor\\Task\\Company\\Company\\Pages\\ProductPages\\ProductsComponent.razor",
+              "RelativeToolTip": "Company\\Pages\\ProductPages\\ProductsComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T10:45:32.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProductComponent.razor",
+              "DocumentMoniker": "D:\\Technical Materials\\Blazor\\Task\\Company\\Company\\Pages\\ProductPages\\AddProductComponent.razor",
+              "RelativeDocumentMoniker": "Company\\Pages\\ProductPages\\AddProductComponent.razor",
+              "ToolTip": "D:\\Technical Materials\\Blazor\\Task\\Company\\Company\\Pages\\ProductPages\\AddProductComponent.razor",
+              "RelativeToolTip": "Company\\Pages\\ProductPages\\AddProductComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T10:45:20.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditProductComponent.razor",
+              "DocumentMoniker": "D:\\Technical Materials\\Blazor\\Task\\Company\\Company\\Pages\\ProductPages\\EditProductComponent.razor",
+              "RelativeDocumentMoniker": "Company\\Pages\\ProductPages\\EditProductComponent.razor",
+              "ToolTip": "D:\\Technical Materials\\Blazor\\Task\\Company\\Company\\Pages\\ProductPages\\EditProductComponent.razor",
+              "RelativeToolTip": "Company\\Pages\\ProductPages\\EditProductComponent.razor",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAFIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T08:46:05.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDetailsComponent.razor",
+              "DocumentMoniker": "D:\\Technical Materials\\Blazor\\Task\\Company\\Company\\Pages\\ProductPages\\ProductDetailsComponent.razor",
+              "RelativeDocumentMoniker": "Company\\Pages\\ProductPages\\ProductDetailsComponent.razor",
+              "ToolTip": "D:\\Technical Materials\\Blazor\\Task\\Company\\Company\\Pages\\ProductPages\\ProductDetailsComponent.razor",
+              "RelativeToolTip": "Company\\Pages\\ProductPages\\ProductDetailsComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T08:41:19.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
